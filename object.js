@@ -1,6 +1,12 @@
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/codingwithrock/object-javascript.git
-git push -u origin main
+let objectBook =
+{
+    price: 100+"tk",
+    author: "by me",
+    bookName: "Travel the World",
+    category: "Adventure"
+}
+
+
+
+
+console.log(objectBook.bookName, objectBook.category, objectBook.price, objectBook.author);

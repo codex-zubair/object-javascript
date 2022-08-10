@@ -28,3 +28,20 @@ console.log(objectBook);
 // *object output another system
 
 console.log(objectBook["author"]);
+
+
+
+// * All the Values out bye looping....
+console.log(Object.keys(objectBook));
+
+for (keys in objectBook) {
+
+
+    id = keys;
+
+    console.log(keys + ': ' + objectBook[id]);
+
+
+}
+
+

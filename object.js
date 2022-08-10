@@ -22,3 +22,9 @@ console.log(Object.keys(objectBook))
 objectBook.price = 200;
 console.log(objectBook.price);
 console.log(objectBook);
+
+
+
+// *object output another system
+
+console.log(objectBook["author"]);
